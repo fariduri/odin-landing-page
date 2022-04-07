@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-footer, .hero-section, nav {
+footer, #hero-section, nav {
     background-color: #1F2937;
     color: #E5E7EB;
 }
@@ -23,6 +23,12 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
 }
 
 h3 {
@@ -44,12 +50,26 @@ h3 {
     font-size: 18px;
 }
 
-nav {
+#hero-section, nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 12px 20vh;
 }
 
+#hero-section {
+    justify-content: space-between;
+    gap: 32px
+}
 
+nav {
+    justify-content: space-between;
+    align-items: center;
+}
 
+.hero-desc {
+    flex-grow: 2;
+}
+
+.hero-img {
+    width: 400px;
+    height: auto;
+}

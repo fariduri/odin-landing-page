@@ -149,6 +149,7 @@ nav {
     margin-bottom: 120px;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
 }
 
 #quote-section {

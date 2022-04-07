@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-    margin: 42px 0;
+    margin: 48px 0;
     font-size: 36px;
     color: #1F2937;
 }
@@ -44,6 +44,12 @@ h3 {
     margin: 0;
     padding: 0;
     font-weight: 900;
+}
+
+h4 {
+    font-size: 18px;
+    color: #1F2937;
+    align-self: flex-end;
 }
 
 p {
@@ -117,7 +123,7 @@ nav {
 }
 
 .card {
-    width: 220px;
+    width: 160px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -137,5 +143,27 @@ nav {
 .flex-con {
     display: flex;
     gap: 42px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#quote-section {
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+blockquote {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 0;
+    
+}
+
+.quote-wrapper {
+    margin: 100px 10%;
+    display: flex;
+    flex-direction: column;
 }

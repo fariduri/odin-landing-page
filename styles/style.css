@@ -40,6 +40,7 @@ h3 {
 }
 p {
     margin: 6px 0;
+    font-size: 18px;
 }
 
 #header-links{
@@ -58,6 +59,21 @@ p {
     display: flex;
     padding-left: 20vh;
     padding-right: 20vh;
+}
+
+.button {
+    text-align: center;
+    background-color: #3882F6;
+    width: 64px;
+    padding: 8px 24px;
+    margin-top: 16px;
+    border-radius: 6px;
+}
+
+.button a {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 #hero-section {

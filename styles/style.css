@@ -108,3 +108,25 @@ nav {
     align-items: center;
     background-color: #E5E7EB;
 }
+
+.card {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-img {
+    flex: auto;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+}
+
+.info-text {
+    text-align: center;
+}
+
+.flex-con {
+    display: flex;
+    gap: 48px;
+}

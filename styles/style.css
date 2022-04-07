@@ -71,8 +71,8 @@ p {
 
 #hero-section, nav, footer, #quote-section, #call-to-action-section, #information-section {
     display: flex;
-    padding-left: 20vh;
-    padding-right: 20vh;
+    padding-left: 23vh;
+    padding-right: 23vh;
 }
 
 .button {
@@ -92,9 +92,11 @@ p {
 
 #hero-section {
     justify-content: space-between;
-    gap: 24px;
+    gap: 16px;
     padding-top: 100px;
     padding-bottom: 100px;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 nav {
@@ -105,11 +107,12 @@ nav {
 }
 
 .hero-desc {
-    flex-basis: 50%;
+    flex: 1 1 400px;
 }
 
 .hero-img {
-    width: 50%;
+    flex-grow: 1;
+    width: 400px;
     height: auto;
 }
 
